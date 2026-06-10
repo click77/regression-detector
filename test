@@ -1,0 +1,14 @@
+# Navigate to your project directory
+cd regression-detector
+
+# Initialize git if not already done
+git init
+
+# Create all the files locally (use the scripts I provided above)
+# Then add everything to git:
+
+git add .
+git commit -m "Initial commit: regression detector with all modules"
+git remote add origin https://github.com/click77/regression-detector.git
+git branch -M main
+git push -u origin main
